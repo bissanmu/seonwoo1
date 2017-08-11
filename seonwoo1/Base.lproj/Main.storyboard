@@ -12,7 +12,7 @@
         <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="seonwoo1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -32,7 +32,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Main" id="DmU-aI-Gdo"/>
+                    <navigationItem key="navigationItem" title="Main" id="DmU-aI-Gdo">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="j5u-5K-FuC">
+                            <connections>
+                                <action selector="openAD:" destination="BYZ-38-t0r" id="ch1-ze-73l"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -65,7 +71,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="First View Controller" id="LA6-Tk-YPc"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="mySwitch" destination="fRa-Nf-nAc" id="NvX-Bo-Ncg"/>
                         <segue destination="4N3-be-o0T" kind="show" identifier="second" id="gkr-hz-1YI"/>
@@ -75,6 +83,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NOe-A6-CWB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1850" y="124"/>
+        </scene>
+        <!--Gray View Controller-->
+        <scene sceneID="w0L-oN-1AS">
+            <objects>
+                <viewController storyboardIdentifier="grayscene" id="9Da-Ix-lVH" customClass="GrayViewController" customModule="seonwoo1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="903-02-Bly"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y9d-0H-2e6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="garyscene" id="dFt-mV-vvO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfU-Gk-BQj">
+                                <rect key="frame" x="166" y="318" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="닫기"/>
+                                <connections>
+                                    <action selector="close:" destination="9Da-Ix-lVH" eventType="touchUpInside" id="myR-ry-dOS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UrD-Ad-fAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1845" y="-556"/>
         </scene>
         <!--Second View-->
         <scene sceneID="lLa-nk-8wc">

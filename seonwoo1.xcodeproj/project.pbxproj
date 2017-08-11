@@ -15,6 +15,7 @@
 		90AEDED01F3D8F2F0014C9F0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEDECF1F3D8F2F0014C9F0 /* FirstViewController.swift */; };
 		90AEDED21F3D930D0014C9F0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEDED11F3D930D0014C9F0 /* SecondViewController.swift */; };
 		90AEDED41F3D93B60014C9F0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEDED31F3D93B60014C9F0 /* ThirdViewController.swift */; };
+		90AEDED61F3D9D7C0014C9F0 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEDED51F3D9D7C0014C9F0 /* GrayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		90AEDECF1F3D8F2F0014C9F0 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		90AEDED11F3D930D0014C9F0 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		90AEDED31F3D93B60014C9F0 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		90AEDED51F3D9D7C0014C9F0 /* GrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				90AEDECF1F3D8F2F0014C9F0 /* FirstViewController.swift */,
 				90AEDED11F3D930D0014C9F0 /* SecondViewController.swift */,
 				90AEDED31F3D93B60014C9F0 /* ThirdViewController.swift */,
+				90AEDED51F3D9D7C0014C9F0 /* GrayViewController.swift */,
 			);
 			path = seonwoo1;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				90AEDED21F3D930D0014C9F0 /* SecondViewController.swift in Sources */,
 				90AEDED01F3D8F2F0014C9F0 /* FirstViewController.swift in Sources */,
 				90AEDED41F3D93B60014C9F0 /* ThirdViewController.swift in Sources */,
+				90AEDED61F3D9D7C0014C9F0 /* GrayViewController.swift in Sources */,
 				90AEDEA21F3D68460014C9F0 /* ViewController.swift in Sources */,
 				90AEDEA01F3D68460014C9F0 /* AppDelegate.swift in Sources */,
 			);
